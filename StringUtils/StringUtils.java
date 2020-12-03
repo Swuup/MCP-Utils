@@ -50,7 +50,13 @@ public class StringUtils {
      * @param height text height **/
 	public void drawString(UnicodeFontRenderer fontRendererIn, String text, int width, int height, int color)
     {
-        fontRendererIn.drawStringWithShadow(text, (float)width, (float)height, color);
+		try {
+			fontRendererIn.drawStringWithShadow(text, (float)width, (float)height, color);
+		}
+		catch (NullPointerException e) {
+			fontRendererIn = UnicodeFontRenderer.getFontOnPC("Arial", 24);
+			fontRendererIn.drawStringWithShadow(text, (float)width, (float)height, color);
+		}
     }
 
 }
