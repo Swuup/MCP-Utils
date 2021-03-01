@@ -3,6 +3,9 @@ Public utils people can use.
 
 ## Current utils:
 
-#### StringUtils.java
-- drawCentereredString for UFR
-- drawString for UFR
+#### BetterStrings
+- Word wrapping
+
+#### Custom Fonts
+- Custom fonts with TTF files
+- Works with ResourceLocation
