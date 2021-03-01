@@ -1,4 +1,4 @@
-# OppyClient-Utils
+# MCP Utils
 Public utils people can use.
 
 ## Current utils:
