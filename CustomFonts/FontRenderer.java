@@ -1,5 +1,3 @@
-package tk.tuxclient.util.font;
-
 import net.minecraft.client.renderer.texture.DynamicTexture;
 import net.minecraft.util.ResourceLocation;
 import org.lwjgl.opengl.GL11;
